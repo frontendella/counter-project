@@ -1,5 +1,6 @@
 import { number } from "prop-types";
 import React, { Component } from "react";
+import Counter from './components/Counter';
 
 class ClassCounter extends Component {
   state = {

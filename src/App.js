@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import ClassCounter from "./components/ClassCounter";
+// import ClassCounter from "./components/ClassCounter";
+import Counter from './components/Counter'
 import "./App.css"
 
 
 class App extends Component {
   render() {
-    return <ClassCounter maxNumber="90" />;
+    return <Counter maxNumber="3" />;
   }
 }
 
